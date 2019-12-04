@@ -61,10 +61,10 @@ function pelear(){
     })[0]
 
     if(pokemon1 === pokemon2){
-        alert('no mames escoge otro contrincante')
+        alert('Escoge otro contrincante')
     }
     else if(pokemon1.vida<=0){
-        alert('este pokemon ya valio madres')
+        alert('este pokemon ya no tiene vida')
     }
     else if(pokemon2.vida<=0){
         alert('dejalo ya esta muerto')
